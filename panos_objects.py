@@ -41,13 +41,5 @@ def main():
         address_group.create()
     fw.commit()
 
-main()
-
-#########
-"""blueprint:
-1. crete firewall object
-2. go thorugh notepad and create address object for ech entry
-3. save names to a list
-4. ask user if he wants to bundle into an address group
-5. if so, create ana ddress object from names in the list"""
-############
+if __name__ == "__main__":
+    main()
